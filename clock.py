@@ -41,6 +41,8 @@ class Clock(object):
     }
 
     # class method - bound to the class
+    # Get the current time
+    # tzlocal will get the local timezone
     @classmethod
     def local_now(klass):
         return datetime.now(tzlocal())
@@ -49,6 +51,7 @@ class Clock(object):
         self.formats = self.FORMATS.copy()
         self.formats.update(formats)
 
+    # strftime takes a format and returns a string representing the date
     def _local_format(self, fmt):
         return Clock.local_now().strftime(fmt)
 
