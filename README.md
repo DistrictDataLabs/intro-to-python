@@ -36,9 +36,10 @@ The outline of the Workshop is as follows:
 12. Repetition
 13. Functions
 14. Lists, Tuples, Sets and Dictionaries
+15. File I/O
+16. APIs
 15. Object Oriented Programming
 16. A Time Formatter
-
 
 
 # License ##
