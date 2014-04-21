@@ -59,7 +59,7 @@ There are other Python distributions available that can be easier to install and
 + [Canopy](https://www.enthought.com/products/canopy/)
 + [Python(x,y)](https://code.google.com/p/pythonxy/)
 
-Anaconda does not require administrative privileges, so it is easier to install for everyone. That installation also automatically adds Python to your path and comes with `pip` included.
+Anaconda does not require administrative privileges, so it is easier to install for everyone. That installation also automatically adds Python to your path and comes with `pip` included. A more comprehensive list can be found [here](http://www.scipy.org/install.html).
 
 ### Integrated Development Environments (IDEs)
 Many of us prefer just a text editor with syntax highlighting to write Python code, like [Sublime Text](http://www.sublimetext.com) or [Notepad++](http://www.notepad-plus-plus.org). However, if you really want an IDE, two good choices are 
