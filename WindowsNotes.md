@@ -1,4 +1,4 @@
-#Notes for installing a Python Development environment in Windows 7.
+# Notes for installing a Python Development environment in Windows 7.
 
 This note is based on the Python 2.7 installation available at [python.org](http://www.python.org), as well as Git version 1.9.0. Most of these instructions also will work on Windows XP, if you're still running it. 
 
@@ -31,10 +31,14 @@ You can also customize your PowerShell console using a *profile* file (similar t
 The easiest way to install Python modules is using `pip`, which is a Python installation manager. This is not installed by default in Python 2.7.6, but is installed by default in Python 3.4. The easiest way to install this is:
 
 1. Right-click and save [get-pip.py](https://raw.github.com/pypa/pip/master/contrib/get-pip.py) (remember where you saved it; I'll assume it's `\Users\yourname\Downloads`)
-2. Open PowerShell. Type `cd \Users\yourname\Downloads` (replacing "yourname" with the your username
+2. Open PowerShell. Type `cd \Users\yourname\Downloads` (replacing "yourname" with the your username)
 3. Type `python get-pip.py`. This will install `pip`. Now you're ready to install other Python modules
 
-If you're getting an error when you're typing `python get-pip.py` to the effect of *"The term 'python' is not recognized as the name of a cmdlet, function, script file, or operable program"*, make sure you had added the paths for Python to your computer's Path variable, as described in the previous section.
+If you're getting an error when you're typing `python get-pip.py` to the effect 
+
+> The term 'python' is not recognized as the name of a cmdlet, function, script file, or operable program
+
+make sure you had added the paths for Python to your computer's Path variable, as described in the previous section.
 
 Now you're ready to install other python modules.
 
@@ -48,7 +52,7 @@ To install `virtualenv` and `virtualenvwrapper`, you can now type, in PowerShell
 `pip` is a generic solution for installing modules in Python, and works perfectly well in Unix-like environments. However, Windows has certain idiosyncrasies regarding compilers, paths and the like, 
 so it is often easier to install modules using pre-built installers for Windows. In particular, you can find several module installers [here](http://www.lfd.uci.edu/~gohlke/pythonlibs/). 
 
-To install Numpy, download the appropriate installer for your version of Python and your operating system (32-bit or 64-bit) from [here](http://www.lfd.uci.edu/~gohlke/pythonlibs/#numpy), and double-click the downloaded file. This site also has installers for [scipy](http://www.lfd.uci.edu/~gohlke/pythonlibs/#scipy), [pandas](http://www.lfd.uci.edu/~gohlke/pythonlibs/#pandas) and other modules in the scientific Python stack. 
+To install Numpy, download the appropriate installer for your version of Python and your operating system (32-bit or 64-bit) from [here](http://www.lfd.uci.edu/~gohlke/pythonlibs/#numpy), double-click the downloaded file, and follow the instructions. This site also has installers for [scipy](http://www.lfd.uci.edu/~gohlke/pythonlibs/#scipy), [pandas](http://www.lfd.uci.edu/~gohlke/pythonlibs/#pandas) and other modules in the scientific Python stack. 
 
 You may also need to download and install the Visual C++ 2008 Redistributable Package ([32-bit](http://www.microsoft.com/en-us/download/details.aspx?id=29) or [64-bit](http://www.microsoft.com/en-us/download/details.aspx?id=15336)). If you installed Python 3.4, you may need the Visual C++ 2010 Redistributable Package ([32-bit](http://www.microsoft.com/en-us/download/details.aspx?id=5555) or [64-bit](http://www.microsoft.com/en-us/download/details.aspx?id=14632)).
 
